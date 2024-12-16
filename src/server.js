@@ -11,4 +11,6 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
+console.log("Codigo Safado")
+
 app.listen(PORT, () => console.log(`Aplicação em execução na porta ${PORT}`));
